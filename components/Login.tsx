@@ -1,6 +1,6 @@
 'use client';
 
-import { SyntheticEvent, useState } from 'react';
+import { useState } from 'react';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -15,7 +15,7 @@ const Login = () => {
   };
 
   return (
-    <form className="login border rounded-xl w-2/5">
+    <form className="login border rounded-xl w-2/5 bg-white">
       <div className="my-6">
         <label className="block mb-6">
           <input
@@ -39,6 +39,9 @@ const Login = () => {
     "
           />
         </label>
+        <button className="mt-1 block mx-auto w-4/5 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm bg-blue-400 text-white font-bold">
+          Login
+        </button>
       </div>
     </form>
   );
