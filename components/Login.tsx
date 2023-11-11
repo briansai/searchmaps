@@ -16,7 +16,7 @@ const Login = () => {
   };
 
   return (
-    <form className="login border rounded-xl w-2/5 bg-white ">
+    <form className="login border rounded-xl w-2/5 bg-white min-w-[400px]">
       <div className="my-10">
         <div className="">
           <label className="block mb-6">

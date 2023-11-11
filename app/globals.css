@@ -36,3 +36,12 @@
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
 }
 /* END: General styles */
+
+/* Hero */
+.hero_lg {
+  @apply flex flex-row pt-52 pl-[15%] pr-[10%] m-0 justify-between;
+}
+
+.hero_md {
+  @apply lg:grid lg:pt-20 lg:text-center lg:justify-items-center;
+}
